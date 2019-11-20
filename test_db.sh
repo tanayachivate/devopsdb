@@ -18,4 +18,4 @@ fi
 docker image build -t mydb .
 
 # start the container
-docker container run -itd -p 4000:4000 --name mydb_c mydb
+docker container run -itd -p 3307:3306 --name mydb_c mydb
